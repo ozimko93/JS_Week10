@@ -1,0 +1,22 @@
+body {
+  background-color: rgba(255, 228, 196, 0.329);
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.gallery__img {
+  width: 750px;
+  height: 650px;
+}
+.gallery__btn {
+  height: 40px;
+  width: 130px;
+  background-color: rgba(0, 255, 255, 0.181);
+  border-radius: 5%;
+  border: 2.5px solid rgba(0, 0, 255, 0.355);
+  font-size: large;
+  cursor: pointer;
+}
