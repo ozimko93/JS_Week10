@@ -9,8 +9,8 @@ const image = document.getElementById('image');
 console.log(image);
 
 function showNextImage() {
-  image.src = '/image2.png';
+  image.src = './image2.png';
 }
 function showPrevImage() {
-  image.src = '/2136.jpg';
+  image.src = './2136.jpg';
 }
